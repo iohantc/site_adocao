@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pag1{
+    background-image: url("./images/foto-inicio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav a button{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    padding-top: 2%;
+    width: 100%;
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-titulo{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.botao-arredondado{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    width: 15%;
+    border-radius: 8px;
+    background-color: #C08249;
+    border: none;
+    color: white;
+    margin-left: 42%;
+}
+
+.botao-arredondado:hover{
+    background-color: #c08349d7;
+}

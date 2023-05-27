@@ -32,15 +32,12 @@ header{
     width: 100%;
 }
 
-h1{
-    font-size: 80px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
 .div-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: white;
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 29%;
 }
 
 .botao-arredondado{

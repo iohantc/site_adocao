@@ -5,34 +5,39 @@
 }
 
 
-.pag1{
+.pag1 {
     background-image: url("./images/foto-inicio.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
-nav a button{
+.pag3 {
+    background-color: #D4C9C1;
+    height: 100vh;
+}
+
+nav a button {
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: bold;
     background-color: transparent;
     color: white;
-    font-family: 'Nunito', sans-serif;
     border: none;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-header{
+header {
     padding-top: 2%;
     width: 100%;
 }
 
-.div-titulo{
+.div-titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: white;
@@ -40,7 +45,16 @@ header{
     margin-left: 29%;
 }
 
-.botao-arredondado{
+.div-acreditamos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-bottom: 7%;
+    color: #4A2F1E;
+}
+
+.botao-arredondado {
     display: inline-block;
     text-align: center;
     font-size: 15px;
@@ -55,6 +69,38 @@ header{
     margin-left: 42%;
 }
 
-.botao-arredondado:hover{
+.botao-arredondado:hover {
     background-color: #c08349d7;
+}
+
+.div-icones {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 13%;
+}
+
+.div-icones img {
+    width: 90px;
+    height: 90px;
+    box-sizing: content-box;
+}
+
+.caixa {
+    padding-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
 }

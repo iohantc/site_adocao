@@ -59,7 +59,7 @@ header {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif; /*Iohan -> A fonte certa aq é roboto, nn tinha mudado aquele titulo la - ass. Laisa*/
     height: 40px;
     width: 15%;
     border-radius: 8px;
@@ -104,3 +104,28 @@ header {
     justify-content: space-around;
     align-items: start;
 }
+
+/* -------------------------Nossa História Página Index ------------------- */
+
+.nossa_historia{
+    background-color: #EAE6E2;
+    padding: 50px 0px;
+}
+
+.titulo_historia{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #4A2F1E;
+}
+
+.texto_historia{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    color: #4A2F1E;
+    font-size: 20px;
+    margin: 30px 90px;
+    
+}
+/* ------------------------------------------------------------------------------ */

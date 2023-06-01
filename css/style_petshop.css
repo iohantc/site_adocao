@@ -71,6 +71,7 @@ h1{
 
 .produto{
     border: solid #4A2F1E 1.5px;
+    border-radius: 16px;
     padding: 20px;
     background-color: #EAE6E2;
     display: flex;

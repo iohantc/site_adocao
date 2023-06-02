@@ -6,7 +6,7 @@
 
 
 .pag1 {
-    background-image: url("./images/foto-inicio.jpeg");
+    background-image: url("../images/pag1/foto-inicio.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -117,7 +117,7 @@ header {
 
 /* -------------------------Nossa História Página Index ------------------- */
 
-.nossa_historia{
+.pag2{
     background-color: #EAE6E2;
     padding: 50px 0px;
 }

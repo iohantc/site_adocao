@@ -138,4 +138,62 @@ header {
     margin: 30px 90px;
     
 }
-/* ------------------------------------------------------------------------------ */
+
+/* -------------nossa equipe----------------------------------------------------------------- */
+body {
+    min-height: 100%;
+    background-color: #D3C9C0
+}
+
+.titulo_equipe {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#4A2F1E;
+    margin-bottom: 80px;
+}
+
+.coluna {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px 50px 100px;
+}
+
+.coluna2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 200px 50px 200px;
+    padding: 0px 40px;
+
+}
+
+.img_equipe {
+    width: 300px;
+    
+}
+/* -------------rodape----------------------------------------------------------------- */
+
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #713E1E;
+    font-family:'Nunito', sans-serif;
+    color: #FFF;
+    display: flex;
+}
+
+.footer-icones{
+    margin-top: 24px;
+
+}
+
+.img_rodape {
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+}

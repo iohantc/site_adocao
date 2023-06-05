@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #693505;
+    font-size: 25px;
+}
+.pag_escolha_pet {
+    background-color: #d4c9c1;
+    font-family: 'Nunito', sans-serif;  
+}
+
+
+.titulo_escolha_pet{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+} 
+
+.linha{
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row; 
+    padding: 25px 0px;
+}
+
+.img_coluna{
+    position: relative; 
+    
+}
+
+.img_coluna:hover .descricao_imagem{
+    opacity: 1;
+}
+
+.img_pet{
+    height: 200px;
+    width: 200px;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+.descricao_imagem{
+    position: absolute; 
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.5s ease-in;
+    background-color: #C08249;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif; 
+    color: #532301;
+    padding: 20px;
+} 
+
+
+
+
+
+

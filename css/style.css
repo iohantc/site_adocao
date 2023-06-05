@@ -163,12 +163,22 @@ body {
     justify-content: space-around;
     margin: 70px 200px 50px 200px;
     padding: 0px 40px;
-
 }
 
+.nome {
+    text-align: center;
+    color: #18181B;
+    font-family: 'Nunito', sans-serif; 
+}
+
+.redeSocial {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #18181B;
+}
 .img_equipe {
     width: 300px;
-    
+    color: #18181B;
 }
 /* -------------rodape----------------------------------------------------------------- */
 
@@ -182,14 +192,13 @@ body {
 }
 
 .footer-icones{
-    margin-top: 24px;
-
+    margin-top: 15px;
 }
 
 .img_rodape {
-    height: 25px;
-    width: 25px;
-    padding-right: 15px;
+    height: 40px;
+    width: 40px;
+    padding-right: 5px;
 }
 
 .paragrafo_rodape {

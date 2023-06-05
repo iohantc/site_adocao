@@ -1,0 +1,242 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body
+{
+   color: white;
+   background-color: #c0814a;
+   font-family: 'Nunito', sans-serif;
+    
+}
+
+/* Referente as patinhas do fundo */
+
+.fundo_patinhas{
+    position:absolute;
+    transform: scaleX(-1);
+    right: 0vh;
+    background-size: cover;
+    z-index: -1;
+    
+}
+
+/* Cabecalho e Ancoras */
+
+header,footer
+{
+    height: 11vh;
+}
+
+/* Começo das ancoras */
+
+.nav
+{
+    width: 100%;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav a button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+/* Fim das ancoras do Cabecalho */
+
+/* Corpo da pagaina - Texto e formulario*/
+
+/* Titulo da pagina */
+h1
+{
+    margin-top: 50px;
+    color:#ffffff ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+/* "Caixa" do formulario, contendo formulario e os textos */
+
+.box
+{
+    justify-content: center;
+    height: 65.2vh;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    
+}
+
+/* começo do texto que esta do lado do formulario */
+
+.texto
+{
+    padding: 20px;
+    justify-content: start;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    width: 60%;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+ /* começo do formulario  */
+
+/* fieldset, dentro dele esta os input e os label */ 
+
+fieldset{
+    border: none;
+    padding: 10px;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+/* A .inputBox é as div dos input e label */
+
+.inputBox{
+    position: relative;
+}
+
+/* O inputBox é a classe para as input (Entrada do Usuario) */
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+/* O .labelInput referente ao label (Escrita do input) */
+
+.labelInput{
+
+    flex-direction: column;
+    display: flex;
+    top: 0px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+/* O focus e o valid servem para fazer a animação quando digitado no formulario  */
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: 0px;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+/* Aqui fica as checkbox */
+
+/* É necessario o display none, para apagar a checkbox original, para colocar as novas */
+
+.inputcheckbox input{
+    display: none;
+    
+}
+
+/* Aqui ficas as estilizaçao das novas checkbox */
+
+/* Criação das novas caixas das checkbox */
+
+.inputcheckbox input + label:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 1px;
+    background-color:#713E1E;
+    border: 1px solid #4A2F1E;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+/* Animação das checkbox com a seta de acerto */
+
+.inputcheckbox input:checked + label:before{
+    background-color: #713E1E;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+/* Id com checkbox para ajeitar no fildset */
+
+#checkbox{
+    margin-left: 45px;
+}
+
+/* O botão do formulario e suas estilizaçao */
+
+#submit{
+    border: 1px rgb(14, 13, 13) solid;
+    background-image: linear-gradient(to right, #5a4233, #9e643f);
+    color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* E o hover do botao, para dar efeito */
+
+#submit:hover{
+    background-image: linear-gradient(to right,#c0814a, #5e3419);
+    color: #4A2F1E;
+    border: 1px white solid;
+    box-shadow: 10px 10px 8px  #5e3419 ;
+    transition: 0.5s;
+}
+
+/* footer -> rodape */
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #713E1E;
+    font-family:'Nunito', sans-serif;
+    color: #FFF;
+    display: flex;
+}
+
+.footer-icones{
+    margin-top: 24px;
+
+}
+
+.img_rodape {
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+}

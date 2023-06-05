@@ -4,50 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>AdoteMiau</title>
     <link rel="stylesheet" href="./css/contato.css">
 </head>
 <body>
+    <!-- O cabecalho fica aqui -->
+    <header>
+        <div class="nav">
+            <a href=""id="ancoras"><button>Home</button></a>
+            <a href=""id="ancoras"><button>Equipe</button></a>
+            <a href="#"id ="ancoras"><button>Serviços</button></a>
+            <a href="contato.html"><button>Contato</button></a>
+        </div>
+    </header>  
+    <!-- aqui fica o fundo das patinhas -->
+    <div class="fundo_patinhas">
+        <img src="./images/pag5/fundo_patinhas.png" alt="Caminho de patinhas">
+    </div>
+    <!-- aqui fica o corpo, logo abaixo os textos e o formulario -->
     <h1>Entre em contato</h1>
     <div class="box">
-        <img src="patinhas.png">
         <div class="texto">
-            <h2><span>Transformando Vidas e Espalhando Amor</span></h2>
+            <h2>Transformando Vidas e Espalhando Amor</h2>
             <p>Olá! Nós, da AdoteMiau, estamos aqui para facilitar o seu trabalho. <br>Basta preencher o formulário ao lado e responderemos em poucos minutos para ajudá-lo(a)!</p>
     </div>
+    <!-- aqui começa o formulario -->
+    <fieldset>
         <form action="">
-            <fieldset>
+            <!-- As input (Entrada de dados do user, e os label) -->
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome"class="inputUser" required>
-                    <label for="nome" class="labelInput">Nome</label>
+                    <label  type="nome" class="labelInput">Nome</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="email" class="inputUser" required>
-                    <label for="email" class="labelInput">Email</label>
+                    <input type="email" name="email" class="inputUser" required>
+                    <label placeholder = "email@.email.com" for="email" class="labelInput">Email</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="tel" name="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelInput">Telefone</label>
+                    <label  aria-placeholder="4198888-8888" for="telefone" class="labelInput">Telefone</label>
                 </div>
                 <br><br>
+                <!-- As checkbox -->
                 <div class="inputcheckbox">
                     <input id="checkbox-1"type="checkbox">
                     <label for="checkbox-1">Quero doar</label>
                     <input id="checkbox-2" type="checkbox">
-                    <label id="teimoso" for="checkbox-2">Achei um pet pra adoção</label>  
+                    <label id="checkbox" for="checkbox-2">Achei um pet pra adoção</label>  
                     <br>
                     <input id="checkbox-3"type="checkbox">
                     <label for="checkbox-3" >Já escolhi meu pet</label>
                     <input id="checkbox-4" type="checkbox">
-
                     <label for="checkbox-4" >Quero ser voluntário</label>
                 </div>
                 <br><br>
+                <!-- O botao -->
                     <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
     </div>
+    <!-- aqui é o rodape -->
+        <footer class="footer-redes-sociais">
+            <div class="footer-icones">
+              <a href="#" ><img class="img_rodape" src="instagram.png" alt="icone instagram"></a>
+              <a href="#" ><img class="img_rodape" src="email.png"     alt= "icone e-mail"></a>
+              <a href="#" ><img class="img_rodape" src="facebook.png"  alt="icone facebook"> </a>
+              <a href="#" ><img class="img_rodape" src="linkedin.png"  alt="icone linkedin"> </a>
+        </div>
+        <p class="paragrafo_rodape"> <strong> Copyright © 2023 - Todos os direitos reservados</strong> </p>
+    </footer>
 </body>
 </html>

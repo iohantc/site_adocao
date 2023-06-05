@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0; 
+    box-sizing: border-box; /* Reseta a formatação inicial do html 5 */
 }
 
 body{
@@ -42,7 +42,7 @@ form{
 }
 
 .botao_form:hover{
-    transform: scale(1.2);
+    transform: scale(1.2); 
 }
 
 .sacola_compras{
@@ -63,9 +63,9 @@ h1{
     font-family: 'Roboto Slab', serif;
 }
 
-.coluna{
+.linha{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Garante espaçamento entre os produtos */
     margin: 50px;
 }
 
@@ -75,14 +75,14 @@ h1{
     padding: 20px;
     background-color: #EAE6E2;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /*Coloca os itens em coluna para facilitar a formatação*/
     width: 250px; 
 }
 
 .img_produto{
     height: 150px;
     width: 150px;
-    object-fit: contain;
+    object-fit: contain; /*garante que a img não ira se distorcer*/
     align-self: center;
     
 }
@@ -103,12 +103,12 @@ h1{
     padding: 6px;
     width: 80px;
     text-align: center;
-    align-self: flex-start;
+    align-self: flex-start; /*alinha o botão de preço ao inicio do container*/
     font-family: 'Nunito', sans-serif;
 }
 
 .botao_adicionar{
-    border: none;
+    border: none; /*tira a borda do botão*/
     background-color: #997C63;
     border-radius: 100px;
     padding: 6px;
@@ -126,22 +126,51 @@ h1{
 /* --------------------------------Responsividade--------------------------------------------- */
 
 @media screen and (max-width: 1024px) and (min-width: 668px){ 
-    .coluna{
+    .linha{
         justify-content: space-around;
     }
     .produto{
-        flex-wrap: wrap; 
+        flex-wrap: wrap; /* Quebra a imgem para a próxima linha quando a tela diminui */
     }
 }
 
 @media screen and (max-width: 667px){
-    .coluna{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
+    .linha{
+        flex-direction: column; /* alinha as imagens em coluna quando a tela diminui */ 
+        align-items: center; /* centraliza as imgs */
+        margin-top: 30px; 
     }
     .produto{
         margin-bottom: 50px;
         width: 250px; 
     }
 }
+
+/* ----------------------------------------Rodapé------------------------------ */
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #713E1E;
+    font-family:'Nunito', sans-serif;
+    color: #FFF;
+    display: flex;
+    padding: 20px;
+}
+
+.footer-icones{
+    margin-top: 15px;
+}
+
+.img_rodape {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+

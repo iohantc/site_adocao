@@ -1,34 +1,32 @@
-* 
-{
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.fundo_incial
-{
+.fundo_incial {
     text-align: center;
     font-family: 'Nunito', sans-serif;
     background-size: cover;
     background-position: auto;
     background-image: url(../images/queroAmor/background_dog.jpg);
-    background-repeat: no-repeat; 
-    color: rgb(22, 21, 21); 
+    background-repeat: no-repeat;
+    color: rgb(22, 21, 21);
 }
- 
+
 /* Cabecalho e Ancoras */
 
-header,footer
-{
+header,
+footer {
     height: 15.5vh;
 
 }
 
 /* Começo das ancoras */
 
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,7 +34,7 @@ header,footer
     padding: 40px;
 }
 
-.nav a button{
+.nav a button {
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -46,16 +44,17 @@ header,footer
     display: flex;
 }
 
-#ancoras{
+#ancoras {
     text-decoration: none;
 }
+
 /* fim das ancoras e do cabecalho */
 
 /* comco do corpo da pagia, composto pelo texto e icone ancora */
 
 /* abaixo fica a configuraçao do texto */
 
-.textoCentro{  
+.textoCentro {
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -65,7 +64,7 @@ header,footer
     background-color: #0707077a;
 }
 
-h1{
+h1 {
     color: #070707;
     margin: 20px;
 }
@@ -76,22 +75,20 @@ h1{
 
 /* Abaixo esta o responsavel pela posicao dos icones */
 
-.iconesImg
-{
+.iconesImg {
     height: 180px;
     width: 100%;
     padding: 30px;
     flex-direction: row;
     justify-content: space-evenly;
     display: flex;
-    
-   
-   
+
+
+
 }
 
 /* O .ancoraIcon ajuda criar a borda dos icones */
-.ancoraIcon
-{
+.ancoraIcon {
     color: black;
     position: relative;
     padding: 19px;
@@ -99,22 +96,20 @@ h1{
     width: 10%;
     border-radius: 100px;
     border: 1px solid #713e1e;
-    background-image: linear-gradient(to right,#713e1e,rgb(39, 38, 38));
+    background-image: linear-gradient(to right, #713e1e, rgb(39, 38, 38));
     box-shadow: 2px 2px #69452f;
 }
 
 /* a imagem que esta dentro dos icones */
 
-img
-{
+img {
     width: 100%;
     height: 100%;
 }
 
 /* Efeito dos icones branco quando passa o mouse */
 
-figcaption
-{
+figcaption {
     opacity: 0;
     left: 0px;
     border-radius: 200px;
@@ -122,13 +117,13 @@ figcaption
     width: 100%;
     position: absolute;
     top: 0px;
-    background-color:#fff9f977 ;
+    background-color: #fff9f977;
     box-sizing: border-box;
 }
 
 /* As ancoras do icones */
 
-#icones{
+#icones {
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -142,8 +137,8 @@ figcaption
 
 /* Efeito ao passar o mouse par uma visualização melhor */
 
-figure:hover figcaption, #icones:hover
-{
+figure:hover figcaption,
+#icones:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #070707;
     opacity: 1;
@@ -151,23 +146,142 @@ figure:hover figcaption, #icones:hover
     font-size: 25px;
 }
 
-/* --------------------------------------------- Escolha seu pet ---------------------------------------- */
+/* Estilos para telas de 668px a 1024px */
 
-.pag_escolha_pet {
-    background-color: #d4c9c1;
-    font-family: 'Nunito', sans-serif; 
-    height: 100%; 
+@media screen and (max-width: 1024px) and (min-width: 668px) {
+    .nav {
+        flex-direction: column;
+        padding: 2vh 0;
+    }
+
+    .nav a button {
+        font-size: 2.5vh;
+        margin-bottom: 0vh;
+
+    }
+
+    .textoCentro {
+        height: 30vh;
+    }
+
+    .iconesImg {
+        height: 25vh;
+        padding: 2vh;
+    }
+
+    .ancoraIcon {
+        padding: 1.5vh;
+    }
+
+    #icones {
+        height: 14vh;
+
+    }
+}
+/* ---------------------------------------Responsividade Quero Amor-------------------------------------- */
+@media screen and (max-width: 668px) {
+    .nav {
+        flex-direction: column;
+        padding: 2vh 0;
+    }
+
+    .nav a button {
+        font-size: 2.2vh;
+        margin-bottom: 1vh;
+    }
+
+    .textoCentro {
+        height: 10vh;
+    }
+
+    .iconesImg {
+        height: 20vh;
+        padding: 2vh;
+        
+    
+    }
+
+    .ancoraIcon {
+        padding: 1vh;
+      
+    }
+
+    #icones {
+        height: 12vh;
+        
+    }
 }
 
+@media screen and (max-width: 668px) {
+    .nav {
+        flex-direction: column;
+        padding: 1vh 0;
+    }
+
+    .nav a button {
+        font-size: 2.2vh;
+        margin-bottom: 1vh;
+    }
+
+    h1{
+        margin-bottom: 10vh;
+        color: aliceblue;
+    }
+
+    .textoCentro {
+        height: 10vh;
+        margin-bottom: 10vh;
+        
+    }
+
+    .iconesImg {
+        height: 10vh;
+        padding: 2vh;
+        margin-top: 30vh;   
+        justify-content:center; 
+        gap: 5vh;
+       
+    }
+
+    .ancoraIcon {
+        padding: 1vh;
+    }
+
+    #icones {
+        height: 12vh;
+       
+
+    }
+}
+
+
+
+/* --------------------------------------------- Escolha seu pet ---------------------------------------- */
+
+/*reset para todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------------------------------------Estilo da Página------------------------------- */
+/* Estilo para os sub-títulos  */
+h2{
+    color: #693505;
+    font-size: 25px;
+}
+/* Estilo para a seção */
+.pag_escolha_pet {
+    background-color: #d4c9c1;
+    font-family: 'Nunito', sans-serif;  
+}
+/* Estilo para o título da página */
 .titulo_escolha_pet{
     text-align: center;
     padding-top: 50px;
     margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    color: #4A2F1E;
 } 
-
+/* Estilo para as linhas de imagens dos pets e descrições*/
 .linha{
     margin: 10px 10%;
     display: flex;
@@ -175,15 +289,18 @@ figure:hover figcaption, #icones:hover
     flex-direction: row; 
     padding: 25px 0px;
 }
-
+/* ----------------------------------------Estilização das Colunas ------------------------------- */
+/* Estilo para as colunas de imagens dos pets e descrições */
 .img_coluna{
     position: relative; 
     
 }
+/* Estilo para as descrições da imagem quando o cursor passa por cima acionando o :hover */
 
 .img_coluna:hover .descricao_imagem{
     opacity: 1;
 }
+/* Estilo para as imagens dos pets*/
 
 .img_pet{
     height: 200px;
@@ -191,7 +308,7 @@ figure:hover figcaption, #icones:hover
     object-fit: contain; 
     border-radius: 10px;
 }
-
+/* Estilo para a descrição das imagens*/
 .descricao_imagem{
     position: absolute; 
     width: 200px;
@@ -211,22 +328,54 @@ figure:hover figcaption, #icones:hover
     padding: 20px;
 } 
 
+/* ---------------------------------------Responsividade Escolha Pets-------------------------------------- */
+
+/* Estilos para dispositivos com largura entre 668px e 1024px */
+
+@media screen and (max-width: 1024px) and (min-width: 668px){ 
+    .pag_escolha_pet {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        
+    }
+    .img_coluna{
+        margin-left: 20px;
+        margin-bottom: 20px;
+ 
+    }
+}
+/* Estilos para dispositivos com largura menor ou igual a 668px */
+@media screen and (max-width: 668px){
+    .linha{
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 30px; 
+    }
+    .img_coluna{
+        margin-bottom: 50px;
+        width: 250px; 
+    }
+}
+
+
+
 /* ---------------------------Rodapé--------------------------------------------------- */
 
-.footer-redes-sociais{
+.footer-redes-sociais {
     flex-direction: column;
     text-align: center;
     background-color: #713E1E;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #FFF;
     display: flex;
 }
 
-.footer-icones{
+.footer-icones {
     padding-top: 15px;
 }
 
-.footer-icones a{
+.footer-icones a {
     text-decoration: none;
 }
 
@@ -242,4 +391,3 @@ figure:hover figcaption, #icones:hover
     text-align: center;
     margin-top: 10px;
 }
-

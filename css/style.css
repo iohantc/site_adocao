@@ -5,6 +5,9 @@
 }
 
 
+
+/* ----------------------------------------Pagina inicial ------------------------------- */
+
 .pag1 {
     background-image: url("../images/pag1/foto-inicio.jpeg");
     background-repeat: no-repeat;
@@ -12,10 +15,6 @@
     height: 100vh;
 }
 
-.pag3 {
-    background-color: #D4C9C1;
-    height: 100vh;
-}
 
 nav a button {
     cursor: pointer;
@@ -38,6 +37,7 @@ header {
     width: 100%;
 }
 
+
 .div-titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -46,15 +46,6 @@ header {
     justify-content: center;
     padding-top: 20vh;
 }
-
-/* .div-acreditamos {
-    font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    padding-top: 3%;
-    padding-left: 25%;
-    padding-bottom: 7%;
-    color: #4A2F1E;
-} */
 
 .botao-arredondado {
     cursor: pointer;
@@ -74,6 +65,41 @@ header {
 
 .botao-arredondado:hover {
     background-color: #c08349d7;
+}
+
+/* -------------------------Nossa História Página Index ------------------- */
+
+.subtitulos{ 
+    /*Mesma formatação de subtítulo para toda a página*/
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #4A2F1E;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.pag2{
+    background-color: #EAE6E2;
+    padding: 50px 0px;
+}
+
+.texto_historia{
+    display: flex;
+    justify-content: center; /*alinha o parágrafo ao centro da tela*/
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    color: #4A2F1E;
+    font-size: 20px;
+    margin: 0px 90px;
+}
+
+/* -----------------------------------O que acreditamos ----------------------------- */
+
+.pag3 {
+    background-color: #D4C9C1;
+    /* height: 100vh; */
+    padding: 50px 0px;
 }
 
 .div-icones {
@@ -108,63 +134,24 @@ header {
     align-items: start;
 }
 
-.oQueAcreditamos{
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 55px;
-    color: #4A2F1E;
-    padding-top: 3%;
-    padding-bottom: 7%;
-}
+/* --------------------------------Nossa equipe-------------------------------- */
 
-/* -------------------------Nossa História Página Index ------------------- */
-
-.pag2{
+.pag4{
+    /* min-height: 100%; */
     background-color: #EAE6E2;
     padding: 50px 0px;
 }
 
-.titulo_historia{
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    color: #4A2F1E;
-}
-
-.texto_historia{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    font-family: 'Nunito', sans-serif;
-    color: #4A2F1E;
-    font-size: 20px;
-    margin: 30px 90px;
-    
-}
-
-/* -------------nossa equipe----------------------------------------------------------------- */
-body {
-    min-height: 100%;
-    background-color: #D3C9C0
-}
-
-.titulo_equipe {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color:#4A2F1E;
-    margin-bottom: 80px;
-}
-
-.coluna {
+.linha {
     display: flex;
     justify-content: space-around;
-    margin: 50px 100px 50px 100px;
+    margin: 0px 100px 50px 100px;
 }
 
-.coluna2 {
+.linha2 {
     display: flex;
     justify-content: space-around;
-    margin: 70px 200px 50px 200px;
+    margin: 0px 200px 50px 200px;
     padding: 0px 40px;
 }
 
@@ -183,6 +170,9 @@ body {
     width: 300px;
     color: #18181B;
 }
+
+
+
 /* ---------------------------Rodapé--------------------------------------------------- */
 
 .footer-redes-sociais{
@@ -216,4 +206,12 @@ body {
     margin-top: 10px;
 }
 
-/* ----------------------------------------------------------------------------- */
+/* ---------------------------------------Responsividade-------------------------------------- */
+
+@media screen and (max-width: 1024px) and (min-width: 668px){ 
+    
+}
+
+@media screen and (max-width: 667px){
+    
+}

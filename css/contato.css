@@ -224,21 +224,26 @@ fieldset{
     font-family:'Nunito', sans-serif;
     color: #FFF;
     display: flex;
+    padding: 20px;
 }
 
 .footer-icones{
-    margin-top: 24px;
+    margin-top: 15px;
+}
 
+.footer-icones a{
+    text-decoration: none;
 }
 
 .img_rodape {
-    height: 25px;
-    width: 25px;
-    padding-right: 15px;
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
 }
 
 .paragrafo_rodape {
     font-family: 'Nunito', sans-serif;
     color: white;
     text-align: center;
+    margin-top: 10px;
 }

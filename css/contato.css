@@ -28,7 +28,8 @@ body
 
 header,footer
 {
-    height: 11vh;
+    background-color: #713E1E;
+    height: 13vh;
 }
 
 /* Começo das ancoras */
@@ -72,7 +73,7 @@ h1
 .box
 {
     justify-content: center;
-    height: 65.2vh;
+    height: 61.2vh;
     width: 100%;
     padding: 0px;
     display: flex;
@@ -197,11 +198,12 @@ fieldset{
     border: 1px rgb(14, 13, 13) solid;
     background-image: linear-gradient(to right, #5a4233, #9e643f);
     color: rgb(255, 255, 255);
-    width: 40%;
+    width: 60%;
     padding: 15px;
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 /* E o hover do botao, para dar efeito */

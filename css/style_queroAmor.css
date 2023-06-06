@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body
+.fundo_incial
 {
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -27,8 +27,7 @@ header,footer
 
 /* Começo das ancoras */
 
-.nav
-{
+.nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,8 +35,7 @@ header,footer
     padding: 40px;
 }
 
-.nav a button
-{
+.nav a button{
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -47,8 +45,7 @@ header,footer
     display: flex;
 }
 
-#ancoras
-{
+#ancoras{
     text-decoration: none;
 }
 /* fim das ancoras e do cabecalho */
@@ -57,8 +54,7 @@ header,footer
 
 /* abaixo fica a configuraçao do texto */
 
-.textoCentro
-{  
+.textoCentro{  
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -66,10 +62,9 @@ header,footer
     height: 40vh;
     color: aliceblue;
     background-color: #0707077a;
-
 }
-h1
-{
+
+h1{
     color: #070707;
     margin: 20px;
 }
@@ -155,31 +150,95 @@ figure:hover figcaption, #icones:hover
     font-size: 25px;
 }
 
-/*  */
-    /* .footer-redes-sociais{ */
-        /* flex-direction: column; */
-        /* text-align: center; */
-        /* background-color: #713E1E; */
-        /* font-family:'Nunito', sans-serif; */
-        /* color: #FFF; */
-        /* display: flex; */
-    /* } */
-/*      */
-    /* .footer-icones{ */
-        /* margin-top: 24px; */
-/*      */
-    /* } */
-/*      */
-    /* .img_rodape { */
-        /* height: 25px; */
-        /* width: 25px; */
-        /* padding-right: 15px; */
-    /* } */
-/*      */
-    /* .paragrafo_rodape { */
-        /* font-family: 'Nunito', sans-serif; */
-        /* color: white; */
-        /* text-align: center; */
-    /* } */
-/*  */
-/*  */
+/* --------------------------------------------- Escolha seu pet ---------------------------------------- */
+
+.pag_escolha_pet {
+    background-color: #d4c9c1;
+    font-family: 'Nunito', sans-serif; 
+    height: 100%; 
+}
+
+.titulo_escolha_pet{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #4A2F1E;
+} 
+
+.linha{
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row; 
+    padding: 25px 0px;
+}
+
+.img_coluna{
+    position: relative; 
+    
+}
+
+.img_coluna:hover .descricao_imagem{
+    opacity: 1;
+}
+
+.img_pet{
+    height: 200px;
+    width: 200px;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+.descricao_imagem{
+    position: absolute; 
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.5s ease-in;
+    background-color: #C08249;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif; 
+    color: #532301;
+    padding: 20px;
+} 
+
+/* ---------------------------Rodapé--------------------------------------------------- */
+
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #713E1E;
+    font-family:'Nunito', sans-serif;
+    color: #FFF;
+    display: flex;
+}
+
+.footer-icones{
+    padding-top: 15px;
+}
+
+.footer-icones a{
+    text-decoration: none;
+}
+
+.img_rodape {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+

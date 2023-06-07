@@ -6,7 +6,7 @@ Esse projeto foi realizado no final do modúlo 1 do curso Web Dev FullStack Cód
 <p align="justify"> O projeto propõe a realização de um projeto de construção de um site para um negócio local fictício incentivando o trabalho em equipe com o formato de squad com 5 membros.
 o </p> 
 
-Projeto desenvolvido em <https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white>, 	<https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white> e <https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black>
+Projeto desenvolvido em <https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white/>, 	<https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white> e <https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black>
 
 Estrutura do Projeto
 O projeto segue uma estrutura de pastas organizada, com os arquivos CSS e as imagens armazenados em diretórios separados. Todos os arquivos HTML estão localizados na raiz do projeto.

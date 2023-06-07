@@ -113,8 +113,8 @@ Fizemos uma página que conta com as seguintes funcionalidades
     3. Formulário de Contato
 2. Página Inicial
   1. Nossa História
-    2. O que Acreditamos
-    3. Nossa Equipe
+     2. O que Acreditamos
+     3. Nossa Equipe
 3. Página para Adoção Quero um Amor
   1. Escolha Seu Pet
 4. Rodapé

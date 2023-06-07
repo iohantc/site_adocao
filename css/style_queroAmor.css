@@ -362,20 +362,21 @@ h2{
 
 /* ---------------------------Rodapé--------------------------------------------------- */
 
-.footer-redes-sociais {
+.footer-redes-sociais{
     flex-direction: column;
     text-align: center;
     background-color: #713E1E;
-    font-family: 'Nunito', sans-serif;
+    font-family:'Nunito', sans-serif;
     color: #FFF;
     display: flex;
+    padding: 20px;
 }
 
-.footer-icones {
-    padding-top: 15px;
+.footer-icones{
+    margin-top: 15px;
 }
 
-.footer-icones a {
+.footer-icones a{
     text-decoration: none;
 }
 

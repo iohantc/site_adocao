@@ -216,7 +216,8 @@ fieldset{
     transition: 0.5s;
 }
 
-/* footer -> rodape */
+/* ---------------------------Rodapé--------------------------------------------------- */
+
 .footer-redes-sociais{
     flex-direction: column;
     text-align: center;

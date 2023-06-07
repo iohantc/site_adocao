@@ -80,15 +80,14 @@ O projeto segue uma estrutura de pastas organizada, com os arquivos CSS e as ima
 
 🚀Começo do Projeto
 O projeto foi iniciado com um brainstorm de idéias dos 5 integrantes, onde todos deram sugestões de négocios que gostariam de fazer em uma board online.
-![image](https://github.com/iohantc/site_adocao/assets/78283974/5a1922b1-1f27-48ef-bd01-49ea56c7bc9d)
-
+<img src="https://github.com/iohantc/site_adocao/assets/78283974/5a1922b1-1f27-48ef-bd01-49ea56c7bc9d" width=200 > <br>
 
 💡Refinando a Ideia
 Após escolhermos que opção de negocio que agradava todo o grupo seria criar uma ONG para adoção de animais chamada AdotmiAu, decidimos focar no Layout e Design do site, escolher a paleta de cores, estilo e criar um protótipo do mesmo no Canvas para visualizar melhor as idéias, dividir as funções de cada membro da equipe
 
-[<img src="https://github.com/iohantc/site_adocao/assets/78283974/63cd5539-a25b-4264-b2c9-5976084a59d0" width=200 > <br>
-[<img src="https://github.com/iohantc/site_adocao/assets/78283974/79139fe0-8c6c-426e-a7ac-7688d31a750d" width=200 > <br>
-[<img src="https://github.com/iohantc/site_adocao/assets/78283974/b0d5e5a4-973f-42b8-8fab-58f74125084f" width=200 > <br>
+<img src="https://github.com/iohantc/site_adocao/assets/78283974/63cd5539-a25b-4264-b2c9-5976084a59d0" width=200 > <br>
+<img src="https://github.com/iohantc/site_adocao/assets/78283974/79139fe0-8c6c-426e-a7ac-7688d31a750d" width=200 > <br>
+<img src="https://github.com/iohantc/site_adocao/assets/78283974/b0d5e5a4-973f-42b8-8fab-58f74125084f" width=200 > <br>
 
 
 💻Execução

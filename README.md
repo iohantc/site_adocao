@@ -132,6 +132,8 @@ Grupo Squad 4 - Desenvolvedores
 
 [<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
 
+[<img src="https://avatars.githubusercontent.com/u/133886125?v=4" width=115 > <br> <sub> Daniela Sodeiro </sub>](https://github.com/15051987) |
+
 
 
 

@@ -44,6 +44,7 @@ header {
     justify-content: space-between;
     align-items: row;
 }
+/* Alinha a seção formulario em linha, trazendo o maior espaçamento possível entre o input_form e a sacola de compras */
 
 form{
     border: solid #4A2F1E 1.8px; /*Faz com que a barra de pesquisa e a a lupa fiquem na mesma caixa*/
@@ -72,7 +73,8 @@ form{
 
 .botao_form:hover{
     transform: scale(1.2); 
-}
+} 
+/*animação para 'levantar' o botão quando passar o mouse */
 
 .sacola_compras{
     width: 32px;
@@ -115,6 +117,7 @@ h1{
 .img_produto{
     height: 150px;
     width: 150px;
+    border-radius: 10px;
     object-fit: contain; /*garante que a img não ira se distorcer*/
     align-self: center;
     
@@ -150,6 +153,10 @@ h1{
     margin-left: 20px;
 }
 
+.botao_adicionar:hover{
+    transform: scale(1.2); 
+}
+
 .alinhamento_botao{ /* Possibilita o alinhamento do preço e botão de adicionar a sacola */
     display: flex;
     justify-content: center;
@@ -166,6 +173,7 @@ h1{
         justify-content: center;
         align-items: center;
     }
+    /* Em telas menores alinha os elementos em coluna e centraliza-os para se ajustar ao tamanho da tela */
     
     .input_form{
         width: 400px;

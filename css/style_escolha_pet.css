@@ -1,25 +1,27 @@
+/*reset para todos os elementos */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ----------------------------------------Estilo da Página------------------------------- */
+/* Estilo para os sub-títulos  */
 h2{
     color: #693505;
     font-size: 25px;
 }
+/* Estilo para a seção */
 .pag_escolha_pet {
     background-color: #d4c9c1;
     font-family: 'Nunito', sans-serif;  
 }
-
-
+/* Estilo para o título da página */
 .titulo_escolha_pet{
     text-align: center;
     padding-top: 50px;
     margin-bottom: 10px;
 } 
-
+/* Estilo para as linhas de imagens dos pets e descrições*/
 .linha{
     margin: 10px 10%;
     display: flex;
@@ -27,15 +29,18 @@ h2{
     flex-direction: row; 
     padding: 25px 0px;
 }
-
+/* ----------------------------------------Estilização das Colunas ------------------------------- */
+/* Estilo para as colunas de imagens dos pets e descrições */
 .img_coluna{
     position: relative; 
     
 }
+/* Estilo para as descrições da imagem quando o cursor passa por cima acionando o :hover */
 
 .img_coluna:hover .descricao_imagem{
     opacity: 1;
 }
+/* Estilo para as imagens dos pets*/
 
 .img_pet{
     height: 200px;
@@ -43,7 +48,7 @@ h2{
     object-fit: contain; 
     border-radius: 10px;
 }
-
+/* Estilo para a descrição das imagens*/
 .descricao_imagem{
     position: absolute; 
     width: 200px;
@@ -63,8 +68,58 @@ h2{
     padding: 20px;
 } 
 
+/* ---------------------------------------Responsividade-------------------------------------- */
+
+/* Estilos para dispositivos com largura entre 668px e 1024px */
+
+@media screen and (max-width: 1024px) and (min-width: 668px){ 
+    .pag_escolha_pet {
+        justify-content: space-around;
+    }
+    .img_coluna{
+        flex-wrap: wrap; 
+    }
+}
+/* Estilos para dispositivos com largura menor ou igual a 668px */
+@media screen and (max-width: 668px){
+    .linha{
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 30px; 
+    }
+    .img_coluna{
+        margin-bottom: 50px;
+        width: 250px; 
+    }
+}
 
 
+/* ----------------------------------------Rodapé------------------------------ */
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #713E1E;
+    font-family:'Nunito', sans-serif;
+    color: #FFF;
+    display: flex;
+    padding: 20px;
+}
 
+.footer-icones{
+    margin-top: 15px;
+}
+
+.img_rodape {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
 
 

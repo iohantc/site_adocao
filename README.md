@@ -10,7 +10,7 @@ Projeto desenvolvido em HTML, CSS e Javascript.
 
 Estrutura do Projeto
 O projeto segue uma estrutura de pastas organizada, com os arquivos CSS e as imagens armazenados em diretórios separados. Todos os arquivos HTML estão localizados na raiz do projeto.
-
+```
 📦 AdotMiAu
  ┣ 📂 css
  ┃ ┣ 📜 contato.css
@@ -77,7 +77,7 @@ O projeto segue uma estrutura de pastas organizada, com os arquivos CSS e as ima
  ┣ 📜 petshop.html
  ┣ 📜 queroamor.html
  ┗ 📜 script.js
-
+```
 🚀Começo do Projeto
 O projeto foi iniciado com um brainstorm de idéias dos 5 integrantes, onde todos deram sugestões de négocios que gostariam de fazer em uma board online.<br>
 <img src="https://github.com/iohantc/site_adocao/assets/78283974/5a1922b1-1f27-48ef-bd01-49ea56c7bc9d" width=200 > <br>

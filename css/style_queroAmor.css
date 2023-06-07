@@ -242,3 +242,12 @@ figure:hover figcaption, #icones:hover
     margin-top: 10px;
 }
 
+/* ---------------------------------------Responsividade-------------------------------------- */
+
+@media screen and (max-width: 1024px) and (min-width: 668px){ 
+    
+}
+
+@media screen and (max-width: 667px){
+    
+}

@@ -86,6 +86,7 @@ O projeto foi iniciado com um brainstorm de idéias dos 5 integrantes, onde todo
 💡Refinando a Ideia
 Após escolhermos que opção de negocio que agradava todo o grupo seria criar uma ONG para adoção de animais chamada AdotmiAu, decidimos focar no Layout e Design do site, escolher a paleta de cores, estilo e criar um protótipo do mesmo no Canvas para visualizar melhor as idéias, dividir as funções de cada membro da equipe
 
+[<img src="https://github.com/iohantc/site_adocao/assets/78283974/63cd5539-a25b-4264-b2c9-5976084a59d0" width=250 > <br> <sub> Board </sub>]
 ![image](https://github.com/iohantc/site_adocao/assets/78283974/63cd5539-a25b-4264-b2c9-5976084a59d0)
 
 ![image](https://github.com/iohantc/site_adocao/assets/78283974/79139fe0-8c6c-426e-a7ac-7688d31a750d)

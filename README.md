@@ -112,7 +112,7 @@ Fizemos uma página que conta com as seguintes funcionalidades
       1. Petshop
     3. Formulário de Contato
 2. Página Inicial
-  1. Nossa História
+     1. Nossa História
      2. O que Acreditamos
      3. Nossa Equipe
 3. Página para Adoção Quero um Amor

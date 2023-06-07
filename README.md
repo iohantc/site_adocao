@@ -4,7 +4,7 @@ Página de adoção para projeto Resilia | Ebanx
 Esse projeto foi realizado no final do módulo 1 do curso Web Dev FullStack Códigos do Amanhã, do Resilia Educação.
 
 <p align="justify"> O projeto propõe a construção de um site para um negócio local fictício incentivando o trabalho em equipe com o formato de squad com 5 membros.
-o </p> 
+</p> 
 
 Projeto desenvolvido em ![Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)

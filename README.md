@@ -84,11 +84,14 @@ O projeto foi iniciado com um brainstorm de idéias dos 5 integrantes, onde todo
 
 
 💡Refinando a Ideia
-Após escolhermos que opção de negocio que agradava todo o grupo seria criar uma ONG para adoção de animais chamada AdotmiAu, decidimos focar no Layout e Design do site e criar um protótipo do mesmo no Canvas para visualizar melhor as idéias e dividir as funções de cada membro da equipe
+Após escolhermos que opção de negocio que agradava todo o grupo seria criar uma ONG para adoção de animais chamada AdotmiAu, decidimos focar no Layout e Design do site, escolher a paleta de cores, estilo e criar um protótipo do mesmo no Canvas para visualizar melhor as idéias, dividir as funções de cada membro da equipe
 
 ![image](https://github.com/iohantc/site_adocao/assets/78283974/63cd5539-a25b-4264-b2c9-5976084a59d0)
 
 ![image](https://github.com/iohantc/site_adocao/assets/78283974/79139fe0-8c6c-426e-a7ac-7688d31a750d)
+
+![image](https://github.com/iohantc/site_adocao/assets/78283974/b0d5e5a4-973f-42b8-8fab-58f74125084f)
+
 
 
 💻Execução
@@ -115,19 +118,13 @@ Fizemos uma página que conta com as seguintes funcionalidades
   1. Escolha Seu Pet
 4. Rodapé
 
-Link GITPAGES
+iohantc.github.io/site_adocao/
 
 Grupo Squad 4 - Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/88693115?v=4" width=115 > <br> <sub> Iohan Torres </sub>](https://github.com/iohantc) |
-| :---: |
-
 [<img src="https://avatars.githubusercontent.com/u/43136263?v=4" width=115 > <br> <sub> Laisa Marcelino </sub>](https://github.com/laisamarcelino) |
-| :---: |
-
 [<img src="https://avatars.githubusercontent.com/u/133131579?v=4" width=115 > <br> <sub> José Felipe de Proença </sub>](https://github.com/JojoPrc) |
-| :---: |
 [<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
-| :---: |
 
 
 
@@ -136,8 +133,3 @@ Grupo Squad 4 - Desenvolvedores
 
 
 
-
-
-
-
-![image](https://github.com/iohantc/site_adocao/assets/78283974/95e90c18-64d9-423e-82d3-ecc99ed1de54)

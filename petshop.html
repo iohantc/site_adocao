@@ -9,20 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
     <title>AdotmiAU</title>
 </head>
 <body>
     <header>
-        <form action="###"> 
-            <!-- o atributo action conduziria a pesquisa para uma outra página, porém como não aprendemos isso ainda coloquei o "###" -->
-            <input class="input_form" type="text" placeholder="Pesquise aqui.." name="search" aria-label="Pesquise aqui">
-            <button class="botao_form" type="submit"> <img src="./images/petshop/lupa.png" alt="Imagem de uma luta marrom"> </button>
-        </form>
-        <a href="sacola_compras.html"><img class="sacola_compras" src="./images/petshop/sacola_compras.png" alt="Sacola de compras"></a>
-    </header>
+        <nav>
+            <a href="index.html"><button>Home</button></a>
+            <a href="#nossa_equipe"><button>Equipe</button></a>
+            <a href="petshop.html"><button>Serviços</button></a>
+            <a href="contato.html"><button>Contato</button></a>
+        </nav>
+    </header> 
 
     <main>
+        <section class="formulario">
+            <form action="###">
+                <input class="input_form" type="text" placeholder="Pesquise aqui.." name="search" aria-label="Pesquise aqui">
+                <button class="botao_form" type="submit"> <img src="./images/petshop/lupa.png" alt="Imagem de uma luta marrom"></button>
+            </form>
+            <a href="sacola_compras.html"><img class="sacola_compras" src="./images/petshop/sacola_compras.png"
+                    alt="Sacola de compras"></a>
+        </section>
+
         <h1>Produtos</h1>
         <section class="linha">
             <div class="produto">

@@ -79,6 +79,7 @@ O projeto segue uma estrutura de pastas organizada, com os arquivos CSS e as ima
  ┗ 📜 script.js
 ```
 🚀Começo do Projeto
+
 O projeto foi iniciado com um brainstorm de idéias dos 5 integrantes, onde todos deram sugestões de négocios que gostariam de fazer em uma board online.<br>
 <img src="https://github.com/iohantc/site_adocao/assets/78283974/5a1922b1-1f27-48ef-bd01-49ea56c7bc9d" width=200 > <br>
 
@@ -91,6 +92,7 @@ Após escolhermos que opção de negocio que agradava todo o grupo seria criar u
 
 
 💻Execução
+
 Com as funções estipuladas começamos a codar separadamentas as páginas designadas e subir os arquivos de cada progresso no GITHUB para interação do grupo.
 
 🚧 Progresso
@@ -99,6 +101,7 @@ Para medir o progresso criamos uma backlog <br>
 <img src="https://github.com/iohantc/site_adocao/assets/78283974/bab27759-8881-4297-9ff3-e30e2fb0bc3e" width=200 > 
 
 🗏 Entrega
+
 Na semana final do projeto nos reunimos todos os dias para acertar os ajustes finais, organizar todo o código, padronizar os elementos e criar a parte de responsividade da página.
 Fizemos uma página que conta com as seguintes funcionalidades
 

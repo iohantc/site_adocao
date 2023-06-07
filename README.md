@@ -121,9 +121,13 @@ Fizemos uma página que conta com as seguintes funcionalidades
 iohantc.github.io/site_adocao/
 
 Grupo Squad 4 - Desenvolvedores
+
 [<img src="https://avatars.githubusercontent.com/u/88693115?v=4" width=115 > <br> <sub> Iohan Torres </sub>](https://github.com/iohantc) |
+
 [<img src="https://avatars.githubusercontent.com/u/43136263?v=4" width=115 > <br> <sub> Laisa Marcelino </sub>](https://github.com/laisamarcelino) |
+
 [<img src="https://avatars.githubusercontent.com/u/133131579?v=4" width=115 > <br> <sub> José Felipe de Proença </sub>](https://github.com/JojoPrc) |
+
 [<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
 
 

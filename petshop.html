@@ -9,55 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
     <title>AdotmiAU</title>
 </head>
 <body>
     <header>
-        <form action="###"> 
-            <!-- o atributo action conduziria a pesquisa para uma outra página, porém como não aprendemos isso ainda coloquei o "###" -->
-            <input class="input_form" type="text" placeholder="Pesquise aqui.." name="search" aria-label="Pesquise aqui">
-            <button class="botao_form" type="submit"> <img src="./images/petshop/lupa.png" alt="Imagem de uma luta marrom"> </button>
-        </form>
-        <a href="sacola_compras.html"><img class="sacola_compras" src="./images/petshop/sacola_compras.png" alt="Sacola de compras"></a>
-    </header>
+        <nav>
+            <a href="index.html"><button>Home</button></a>
+            <a href="#nossa_equipe"><button>Equipe</button></a>
+            <a href="petshop.html"><button>Serviços</button></a>
+            <a href="contato.html"><button>Contato</button></a>
+        </nav>
+    </header> 
 
     <main>
+        <section class="formulario">
+            <form action="###">
+                <input class="input_form" type="text" placeholder="Pesquise aqui.." name="search" aria-label="Pesquise aqui">
+                <button class="botao_form" type="submit"> <img src="./images/petshop/lupa.png" alt="Imagem de uma luta marrom"></button>
+            </form>
+            <!-- Foi colocado ### uma vez que levaria para uma página de orçamento, porem não aprendemos essa parte ainda -->
+            <a href="###"><img class="sacola_compras" src="./images/petshop/sacola_compras.png" alt="Sacola de compras"></a>
+        </section>
+
         <h1>Produtos</h1>
         <section class="linha">
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/racao.jpg" alt="Ração Great Flavor para Cães adultos Sabor carne">
-                <p class="descricao_produto">Ração Great Flavor para <wbr> Cães adultos Sabor carne</p>
+                <p class="descricao_produto">Ração Great Flavor para Cães adultos Sabor carne</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 25,80</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()" onclick="quant_itens_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/shampoo.jpg" alt="Shampoo Hora do Banho para Gatos 500ml">
-                <p class="descricao_produto">Shampoo Hora do Banho <wbr> para Gatos 500ml</p>
+                <p class="descricao_produto">Shampoo Hora do Banho para Gatos 500ml</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 15,70</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/tigela.jpg" alt="Tigelas de metal para Ração e Água">
-                <p class="descricao_produto">Tigelas de metal para <wbr> Ração e Água</p>
+                <p class="descricao_produto">Tigelas de metal para Ração e Água</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 20,50</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/bola_la.png" alt="Brinquedo bola de lã PetFeliz para Gatos">
-                <p class="descricao_produto">Brinquedo bola de lã <wbr> PetFeliz para Gatos<p>
+                <p class="descricao_produto">Brinquedo bola de lã PetFeliz para Gatos<p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 10,90</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
         </section>
@@ -65,37 +74,37 @@
         <section class="linha">
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/brinquedos.jpg" alt="Brinquedos sortidos plástico para pets">
-                <p class="descricao_produto">Brinquedos sortidos <wbr> plástico para pets</p>
+                <p class="descricao_produto">Brinquedos sortidos plástico para pets</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 10,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/areia.png" alt="Saco de areia Petliz para Gatos 50kg">
-                <p class="descricao_produto">Saco de areia Petliz <wbr> para Gatos 50kg</p>
+                <p class="descricao_produto">Saco de areia Petliz para Gatos 50kg</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 15,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/coleira.jpg" alt="Coleira para Cães pequenos Cores sortidas">
-                <p class="descricao_produto">Coleira para Cães pequenos <wbr> Cores sortidas</p>
+                <p class="descricao_produto">Coleira para Cães pequenos Cores sortidas</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 10,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/pente.jpg" alt="Escova de banho Petliz para Cães e Gatos">
-                <p class="descricao_produto">Escova de banho Petliz <wbr> para Cães e Gatos</p>
+                <p class="descricao_produto">Escova de banho Petliz para Cães e Gatos</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 12,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
         </section>
@@ -103,41 +112,44 @@
         <section class="linha">
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/racao_gato.jpg" alt="Ração Great Flavor para Gatos adultos Sabor frango">
-                <p class="descricao_produto">Ração Great Flavor para <wbr> Gatos adultos Sabor frango</p>
+                <p class="descricao_produto">Ração Great Flavor para Gatos Sabor frango</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 30,80</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/arranhador.jpg" alt="arranhador para Gatos Tamanho médio">
-                <p class="descricao_produto">Arranhador para Gatos <wbr> Tamanho médio</p>
+                <p class="descricao_produto">Arranhador para Gatos Tamanho médio</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 22,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/caixa_transporte.jpg" alt="Caixa de transporte tamanho médio">
-                <p class="descricao_produto">Caixa de transporte <wbr> Tamanho médio</p>
+                <p class="descricao_produto">Caixa de transporte Tamanho médio</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 50,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
 
             <div class="produto">
                 <img class="img_produto" src="./images/petshop/rato.png" alt="Brinquedo mordedor para Gatos formato de rato">
-                <p class="descricao_produto">Brinquedo mordedor para <wbr> Gatos formato de rato</p>
+                <p class="descricao_produto">Brinquedo mordedor para Gatos formato de rato</p>
                 <div class="alinhamento_botao">
                     <p class="preco">R$ 5,00</p>
-                    <a href="###" class="botao_adicionar"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></a>
+                    <button class="botao_adicionar" onclick="aviso_sacola()"><img src="./images/petshop/adicionar_a_sacola.png" alt="Icone de adicionar a sacola"></button>
                 </div>
             </div>
         </section>
     </main>
+    <!-- As seções nomeadas como linha possuem a mesma formação por isso foram criadas para separar as linhas e colunas, havendo dentro
+    delas divs que auxiliam a inserção dos botões e imgs dentro das 'caixas - div nomeada como produto', auxiliando também 
+    no alinhamento dos elementos no css  -->
 
     <footer class="footer-redes-sociais">
         <div class="footer-icones">
@@ -148,5 +160,7 @@
     </div>
     <p class="paragrafo_rodape"> <strong> Copyright © 2023 - Todos os direitos reservados</strong> </p>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 </html>

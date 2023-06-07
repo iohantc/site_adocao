@@ -1,13 +1,12 @@
+/* Estilos Globais - Remove margens e padding padrão e definindo a caixa de modelo para todos os elementos*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-/* ----------------------------------------Pagina inicial ------------------------------- */
-
+/* ------------------------ Página Inicial ---------------------------- /
+    / Aplica estilos para a primeira página com uma imagem de fundo */
 .pag1 {
     background-image: url("../images/pag1/foto-inicio.jpeg");
     background-repeat: no-repeat;
@@ -15,7 +14,7 @@
     height: 100vh;
 }
 
-
+/* Aplica estilos aos botões na navegação */
 nav a button {
     cursor: pointer;
     font-family: 'Nunito', sans-serif;
@@ -26,18 +25,20 @@ nav a button {
     border: none;
 }
 
+/* Criando um layout flexível para o elemento de navegação */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+/* Aplica padding ao cabeçalho */
 header {
     padding-top: 2%;
     width: 100%;
 }
 
-
+/* Estilização do título da página inicial */
 .div-titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -47,6 +48,7 @@ header {
     padding-top: 20vh;
 }
 
+/* Estilização do botão na primeira página */
 .botao-arredondado {
     cursor: pointer;
     display: inline-block;
@@ -63,13 +65,15 @@ header {
     margin-left: 42%;
 }
 
+/* Muda a cor de fundo do botão ao passar o mouse */
 .botao-arredondado:hover {
     background-color: #c08349d7;
 }
 
-/* -------------------------Nossa História Página Index ------------------- */
+/* --------------------- Página de Nossa História -------------------- */
 
-.subtitulos{ 
+/* Aplica estilos uniformes a todos os subtítulos */
+.subtitulos {
     /*Mesma formatação de subtítulo para toda a página*/
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -79,14 +83,16 @@ header {
     padding-bottom: 5%;
 }
 
-.pag2{
+/* Aplica estilos para a página 2 */
+.pag2 {
     background-color: #EAE6E2;
     padding: 50px 0px;
 }
 
-.texto_historia{
+/* Estilização do texto da história */
+.texto_historia {
     display: flex;
-    justify-content: center; /*alinha o parágrafo ao centro da tela*/
+    justify-content: center;
     text-align: justify;
     font-family: 'Nunito', sans-serif;
     color: #4A2F1E;
@@ -94,14 +100,15 @@ header {
     margin: 0px 90px;
 }
 
-/* -----------------------------------O que acreditamos ----------------------------- */
+/* --------------------- Página O que Acreditamos ---------------------- */
 
+/* Estilização da página 3 */
 .pag3 {
     background-color: #D4C9C1;
-    /* height: 100vh; */
     padding: 50px 0px;
 }
 
+/* Aplica layout flexível para os ícones */
 .div-icones {
     display: flex;
     justify-content: space-around;
@@ -110,6 +117,7 @@ header {
     height: auto;
 }
 
+/* Estiliza a imagem dentro de .div-icones. Define a largura e ajusta a altura proporcionalmente */
 .div-icones img {
     width: 90px;
     height: auto;
@@ -117,6 +125,7 @@ header {
     flex-wrap: nowrap;
 }
 
+/* Estiliza o conteúdo de .caixa. Define margem superior, família de fontes, flexbox para layout e largura */
 .caixa {
     padding-top: 1%;
     font-family: 'Nunito', sans-serif;
@@ -128,6 +137,7 @@ header {
     text-align: center;
 }
 
+/* Estiliza o container. Configuração de flexbox para o layout e alinhamento dos itens */
 .container {
     display: flex;
     justify-content: space-around;
@@ -136,8 +146,7 @@ header {
 
 /* --------------------------------Nossa equipe-------------------------------- */
 
-.pag4{
-    /* min-height: 100%; */
+.pag4 {
     background-color: #EAE6E2;
     padding: 50px 0px;
 }
@@ -158,7 +167,7 @@ header {
 .nome {
     text-align: center;
     color: #18181B;
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
 }
 
 .redeSocial {
@@ -166,6 +175,7 @@ header {
     font-family: 'Nunito', sans-serif;
     color: #18181B;
 }
+
 .img_equipe {
     width: 300px;
     color: #18181B;
@@ -175,21 +185,22 @@ header {
 
 /* ---------------------------Rodapé--------------------------------------------------- */
 
-.footer-redes-sociais{
+.footer-redes-sociais {
     flex-direction: column;
     text-align: center;
     background-color: #713E1E;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #FFF;
     display: flex;
     padding: 20px;
 }
 
-.footer-icones{
+.footer-icones {
     margin-top: 15px;
 }
 
-.footer-icones a{
+/* Remove o sublinhado padrão dos links no .footer-icones */
+.footer-icones a {
     text-decoration: none;
 }
 
@@ -208,8 +219,10 @@ header {
 
 /* ---------------------------------------Responsividade-------------------------------------- */
 
-@media screen and (max-width: 667px){
+/* responsividade do site em telas com largura de até 667px */
+@media screen and (max-width: 667px) {
     .pag1 {
+        /* Define a imagem de fundo para a primeira página e assegura que ela cubra todo o espaço disponível */
         background-image: url("../images/pag1/foto-inicio.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -218,53 +231,65 @@ header {
     }
 
     .div-titulo {
+        /* Reduz o tamanho da fonte para melhor visualização em dispositivos pequenos */
         font-size: 30px;
         padding-top: 30vh;
     }
 
     .botao-arredondado {
+        /* Ajusta o tamanho e posicionamento do botão de "adotar" */
         height: 30px;
         width: 50%;
         margin-left: 25%;
     }
 
-    .subtitulos, .texto_historia {
+    .subtitulos,
+    .texto_historia {
+        /* Ajusta o tamanho da fonte para sub-títulos e parágrafos de história */
         font-size: 18px;
     }
 
     .div-icones img {
+        /* Ajusta o tamanho dos ícones de missão, visão e valores */
         width: 50px;
         height: 50px;
     }
 
     .caixa {
+        /* Define a largura da caixa que contém a missão, visão e valores */
         width: 40%;
     }
 
-    .linha{
+    .linha {
+        /* Altera a direção dos elementos na linha para a coluna para melhor visualização em dispositivos pequenos */
         flex-direction: column;
         align-items: center;
     }
 
-    .linha2{
+    .linha2 {
+        /* Mesmo ajuste para linha2, mas com margem diferente */
         flex-direction: column;
         align-items: center;
         margin: 0px 100px 50px 100px;
     }
 
     .img_equipe {
+        /* Ajusta o tamanho das fotos da equipe para melhor visualização em dispositivos pequenos */
         width: 150px;
     }
 
     .img_rodape {
+        /* Ajusta o tamanho dos ícones das redes sociais no rodapé */
         height: 20px;
         width: 20px;
     }
 }
 
 
-@media screen and (max-width: 1024px) and (min-width: 668px){ 
+/* responsividade do site em telas com largura de 668px a 1024px */
+@media screen and (max-width: 1024px) and (min-width: 668px) {
     .pag1 {
+        /* Define a imagem de fundo para a primeira página e assegura que ela cubra todo o espaço disponível */
         background-image: url("../images/pag1/foto-inicio.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -273,34 +298,42 @@ header {
     }
 
     .div-titulo {
+        /* Aumenta o tamanho da fonte para melhor visualização em telas maiores */
         font-size: 60px;
     }
 
     .botao-arredondado {
+        /* Ajusta o tamanho, posicionamento e tamanho da fonte do botão "adotar" */
         height: 45px;
         width: 30%;
         margin-left: 35.5%;
         font-size: 20px;
     }
 
-    .subtitulos, .texto_historia {
+    .subtitulos,
+    .texto_historia {
+        /* Aumenta o tamanho da fonte para sub-títulos e parágrafos de história */
         font-size: 25px;
     }
 
     .div-icones img {
+        /* Ajusta o tamanho dos ícones de missão, visão e valores */
         width: 70px;
         height: 70px;
     }
 
     .caixa {
+        /* Define a largura da caixa que contém a missão, visão e valores */
         width: 30%;
     }
 
     .img_equipe {
+        /* Ajusta o tamanho das fotos da equipe para melhor visualização em telas maiores */
         width: 200px;
     }
 
     .img_rodape {
+        /* Ajusta o tamanho dos ícones das redes sociais no rodapé */
         height: 25px;
         width: 25px;
     }

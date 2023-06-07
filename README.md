@@ -116,7 +116,7 @@ Fizemos uma página que conta com as seguintes funcionalidades
      2. O que Acreditamos
      3. Nossa Equipe
 3. Página para Adoção Quero um Amor
-  1. Escolha Seu Pet
+    1. Escolha Seu Pet
 4. Rodapé
 
 iohantc.github.io/site_adocao/

@@ -218,6 +218,7 @@ fieldset{
 
 /* ---------------------------Rodapé--------------------------------------------------- */
 
+/* footer -> rodape */
 .footer-redes-sociais{
     flex-direction: column;
     text-align: center;
@@ -225,16 +226,17 @@ fieldset{
     font-family:'Nunito', sans-serif;
     color: #FFF;
     display: flex;
-    padding: 20px;
+
 }
 
 .footer-icones{
     margin-top: 15px;
 }
 
-.footer-icones a{
+.footer-icones a {
     text-decoration: none;
 }
+
 
 .img_rodape {
     height: 30px;
@@ -246,5 +248,5 @@ fieldset{
     font-family: 'Nunito', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 2px;
 }

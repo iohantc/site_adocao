@@ -65,8 +65,9 @@ footer {
 }
 
 h1 {
-    color: #070707;
+    color: white;
     margin: 20px;
+    font-size: 30px;
 }
 
 /* Fim do corpo com os texto */
@@ -82,9 +83,6 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     display: flex;
-
-
-
 }
 
 /* O .ancoraIcon ajuda criar a borda dos icones */
@@ -128,7 +126,7 @@ figcaption {
     align-items: center;
     justify-content: center;
     border-radius: 200px;
-    border: 3px rgb(3, 3, 3) dashed;
+    border: 3px white dashed;
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -280,6 +278,7 @@ h2{
     text-align: center;
     padding-top: 50px;
     margin-bottom: 10px;
+    font-size: 32px;
 } 
 /* Estilo para as linhas de imagens dos pets e descrições*/
 .linha{
@@ -324,7 +323,7 @@ h2{
     text-align: center;
     font-size: 16px;
     font-family: "Nunito", sans-serif; 
-    color: #532301;
+    color: white;
     padding: 20px;
 } 
 
@@ -390,17 +389,4 @@ h2{
     color: white;
     text-align: center;
     margin-top: 10px;
-<<<<<<< HEAD
-}
-
-/* ---------------------------------------Responsividade-------------------------------------- */
-
-@media screen and (max-width: 1024px) and (min-width: 668px){ 
-    
-}
-
-@media screen and (max-width: 667px){
-    
-=======
->>>>>>> ee95425030ba017da4d40a683893ff2b70a70c51
 }

@@ -105,6 +105,7 @@ Para medir o progresso criamos uma backlog
 🗏 Entrega
 Na semana final do projeto nos reunimos todos os dias para acertar os ajustes finais, organizar todo o código, padronizar os elementos e criar a parte de responsividade da página.
 Fizemos uma página que conta com as seguintes funcionalidades
+
 1. Barra de Navegação
    1. Home
     2. Serviços 

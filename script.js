@@ -8,10 +8,10 @@ function aviso_sacola() {
 // ----------------------Script Validação do formulário-------------------------
 
 function validaTel(){
-    var telefone = document.getElementById('telefone').value
-    if(telefone.length == 11){
-        telefone = parseInt(telefone)
-        if(telefone > 10000000000){
+    var telefone = document.getElementById('telefone').value //chama o input telefone
+    if(telefone.length == 11){ //aqui ele verifca se tem 11 caracteres
+        telefone = parseInt(telefone) //aqui ele vai passar para inteiro as string
+        if(telefone > 10000000000){ //aqui fazer a verificação de tem numero
             alert('Enviado!')
         }
         else{
@@ -24,7 +24,7 @@ function validaTel(){
 }
 
 function validaEmail(){
-    var email = document.getElementById('email').value
+    var email = document.getElementById('email').value //chama o email
         if((email.indexOf('@') > -1) && email.indexOf('.') > -1 ){ //verifica se o email tem o @
             validaTel() //Chama a função vadaTel()
         } 
@@ -34,8 +34,8 @@ function validaEmail(){
 }
 
 function validaNome() {
-    var nome = document.getElementById('nome').value 
-    if ((nome.length > 5) && nome.indexOf(" ") > -1) {
+    var nome = document.getElementById('nome').value  //chama o nome
+    if ((nome.length > 5) && nome.indexOf(" ") > -1) { //verefica se contem espaços
         validaEmail()
     }
     else {
